@@ -94,7 +94,8 @@ body {
 
 .act-title {
     font-size: 16px;
-     
+    display: flex;
+    align-items: center;    
     width: 182px;
     height: 60px;
     font-weight: bold;
@@ -107,13 +108,16 @@ body {
   }
 
   .act-desc {
+
     width: 198px;
     height: 65px;
     border: solid 2px;
+    
     /*border: dashed purple;*/
 }
 
   .act-desc-p {
+
     padding: 0 25px 0 25px;
 
   }
@@ -141,7 +145,7 @@ p {
   height: 394px;
   background: white;
   flex-direction: column;
-  border: solid 1px;
+  border: dashed purple 2px;
   margin-bottom: 30px;
 }
 #guide-text {
@@ -169,7 +173,6 @@ p {
     margin: auto;
 
   height: 249px;
-  background: #a8dadc;
   display: flex;
   align-items: center;
   margin-left: 10px;
@@ -186,8 +189,9 @@ p {
   justify-content: space-around;
   width: 400px;
   height: 294px;
-  background: #a8dadc;
-  box-shadow: 0px 6px 0px 0px #1d3557;
+  background: white;
+  box-shadow: 0px 6px 0px 0px #4d035c;
+  border: 2px dashed purple;
   border-radius: 5%;
 }
 
@@ -195,7 +199,7 @@ p {
 #per-name {
     margin-top: 30px;
     font: 16px bold Arial,sans-serif;
-    color: #1D3557;
+    color: #400368;
   }
   
 /* End  of Guide CSS */
