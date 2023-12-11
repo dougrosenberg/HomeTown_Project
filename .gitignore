@@ -1,0 +1,6 @@
+.vscode/
+settings.json
+orig_index.html
+package.json
+README.md
+*.js
