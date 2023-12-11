@@ -1,0 +1,199 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 1115px;
+}
+/* Start of Hero CSS */
+#hero {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 720px;
+  height: 323px;
+  background-image: url("images/torshov.jpg");
+  background-size: cover;
+
+  font: 32px bold Arial, Helvetica, sans-serif;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#visit_Tosshov {
+    display: flex;
+    width: 225px;
+    height: 42px;
+    background: #1d3557;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 0;
+    font-size: 32px;
+    margin: 10px 0px 10px;
+  }
+  #enjoy-culture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 412px;
+    height: 52px;
+    border-radius: 10px;
+    font:  19px bold Arial;
+
+    line-height: 22px;
+    letter-spacing: 0em;
+    background-color: #457b9d;
+  }
+  
+  /* End of Hero CSS */
+
+
+/* Start of activity CSS */
+  
+#top3 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #activity-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 720px;
+  }
+  
+  .activity {
+    margin-right: 20px;
+  
+    margin-left: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    width: 198px;
+    height: 227px;
+    font: 30px Calibri;
+
+  }
+  
+
+.act-title {
+    font-size: 16px;
+     
+    width: 182px;
+    height: 60px;
+    font-weight: bold;
+    border: dashed purple;
+  }
+  
+  .act-title-1{
+    padding: 0 20px 0 20px;
+
+  }
+
+  .act-desc {
+    width: 198px;
+    height: 65px;
+    border: solid 2px;
+    /*border: dashed purple;*/
+}
+
+  .act-desc-p {
+    padding: 0 25px 0 25px;
+
+  }
+
+
+.img-act {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+
+p {
+  font-size: 16px;
+}
+
+/* End  of activity CSS */
+
+
+
+/* Start  of Guide CSS */
+#guide-section {
+  display: flex;
+  width: 720px;
+  height: 394px;
+  background: white;
+  flex-direction: column;
+  border: solid 1px;
+}
+#guide-text {
+  font: italic  16px Arial, Helvetica, sans-serif ;
+  text-align: center;
+  margin: 30px auto 40px auto;
+}
+#your-guide {
+  font: 24px bold Arial;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#lived-at {
+  width: 189px;
+  height: 71px;
+  font-weight: 400;
+}
+
+
+
+#per-image {
+    width: 180px;
+    margin: auto;
+
+  height: 249px;
+  background: #a8dadc;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 5px 5px 0px 5px;
+}
+#guide-text {
+  display: flex;
+  flex-direction: column;
+}
+#guide-card {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 400px;
+  height: 294px;
+  background: #a8dadc;
+  box-shadow: 0px 6px 0px 0px #1d3557;
+  border-radius: 5%;
+}
+
+
+#per-name {
+    margin-top: 30px;
+    font: 16px bold Arial,sans-serif;
+    color: #1D3557;
+  }
+  
+/* End  of Guide CSS */
