@@ -141,6 +141,7 @@ p {
   background: white;
   flex-direction: column;
   border: solid 1px;
+  margin-bottom: 30px;
 }
 #guide-text {
   font: italic  16px Arial, Helvetica, sans-serif ;
