@@ -145,7 +145,6 @@ p {
   height: 394px;
   background: white;
   flex-direction: column;
-  border: dashed purple 2px;
   margin-bottom: 30px;
 }
 #guide-text {
